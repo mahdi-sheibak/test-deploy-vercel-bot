@@ -1,4 +1,6 @@
 {
+  "version": 2,
+  "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
   "functions": {
     "api/bot.ts": {
       "memory": 1024,
