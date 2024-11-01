@@ -2,7 +2,6 @@
   "name": "test-deploy-vercel-bot",
   "version": "0.1.0",
   "main": "bot.js",
-  "type": "module",
   "scripts": {
     "dev": "tsx --env-file=.env ./api/bot.ts",
     "build": "tsc"
