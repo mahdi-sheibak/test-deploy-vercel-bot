@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "bot.js",
   "scripts": {
-    "dev": "tsx --env-file=.env ./api/bot.ts",
+    "dev": "tsx --env-file=.env ./api/index.ts",
     "build": "tsc"
   },
   "keywords": [],

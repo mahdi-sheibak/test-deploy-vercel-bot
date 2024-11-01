@@ -8,6 +8,10 @@ app.get("/", (req, res) => {
   res.send("Express on Vercel");
 });
 
+app.get("/api", (req, res) => {
+  res.send("/api Express on Vercel");
+});
+
 // app.use(webhookCallback(bot, "express"));
 
 app.listen(3000, () => {

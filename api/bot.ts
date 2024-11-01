@@ -28,4 +28,4 @@ bot.on("message", (ctx) => {
 // export default webhookCallback(bot, "http");
 // export default webhookCallback(bot, "express");
 
-export { bot };
+export default bot;
