@@ -1,0 +1,16 @@
+{
+  "name": "test-deploy-vercel-bot",
+  "version": "0.1.0",
+  "main": "bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env bot.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "grammy": "1.31.0"
+  }
+}
