@@ -1,6 +1,6 @@
-// import { webhookCallback } from "grammy";
+import { webhookCallback } from "grammy";
 import express from "express";
-// import { bot } from "./bot";
+import bot from "./bot";
 
 const app = express();
 
@@ -12,7 +12,7 @@ app.get("/api", (req, res) => {
   res.send("/api Express on Vercel");
 });
 
-// app.use(webhookCallback(bot, "express"));
+app.use(webhookCallback(bot, "express"));
 
 app.listen(3000, () => {
   console.log("Server ready on port 3000.");

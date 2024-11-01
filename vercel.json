@@ -5,6 +5,18 @@
     "api/bot.ts": {
       "memory": 1024,
       "maxDuration": 10
+    },
+    "api/bot.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    },
+    "api/index.ts": {
+      "memory": 1024,
+      "maxDuration": 10
+    },
+    "api/index.js": {
+      "memory": 1024,
+      "maxDuration": 10
     }
   }
 }
