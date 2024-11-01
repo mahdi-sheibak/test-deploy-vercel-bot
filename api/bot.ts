@@ -15,13 +15,13 @@ bot.on("message", (ctx) => {
   ctx.reply("Got another message!");
 });
 
-bot
-  .start()
-  .then(() => {
-    console.log("bot started");
-  })
-  .catch((error) => {
-    console.log({ error });
-  });
+// bot
+//   .start()
+//   .then(() => {
+//     console.log("bot started");
+//   })
+//   .catch((error) => {
+//     console.log({ error });
+//   });
 
 export default webhookCallback(bot, "std/http");
