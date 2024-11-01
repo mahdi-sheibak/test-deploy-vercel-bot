@@ -5,8 +5,7 @@
   "scripts": {
     "dev": "tsx --env-file=.env ./src/bot.ts",
     "build": "tsc",
-    "x-start": "ts-node --env-file=.env src/bot.ts",
-    "start": "tsx --env-file=.env ./src/bot.ts"
+    "start": "ts-node src/bot.ts"
   },
   "keywords": [],
   "author": "",
