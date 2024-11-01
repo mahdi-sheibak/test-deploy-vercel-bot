@@ -1,8 +1,7 @@
-import { Bot } from "grammy";
+import { Bot, webhookCallback } from "grammy";
 
-const token = process.env.TOKEN ?? "";
-
-console.log({ token });
+const token = process.env.TOKEN;
+if (!token) throw new Error("BOT_TOKEN is unset");
 
 const bot = new Bot(token);
 
@@ -24,3 +23,5 @@ bot
   .catch((error) => {
     console.log({ error });
   });
+
+export default webhookCallback(bot, "std/http");

@@ -4,7 +4,8 @@
   "main": "bot.js",
   "type": "module",
   "scripts": {
-    "start": "node --env-file=.env bot.js"
+    "dev": "tsx --env-file=.env ./api/bot.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,10 @@
   "description": "",
   "dependencies": {
     "grammy": "1.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.8.6",
+    "tsx": "4.19.2",
+    "typescript": "5.6.3"
   }
 }
